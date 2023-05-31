@@ -55,20 +55,3 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	return (r + size_r);
 }
-
-/**
- * _strlen - Calculates the length of a string
- * @str: The string
- *
- * Return: The length of the string
- */
-int _strlen(char *str)
-{
-	int len = 0;
-
-	while (str[len] != '\0')
-		len++;
-
-	return (len);
-}
-
